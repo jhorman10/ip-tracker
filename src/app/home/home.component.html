@@ -1,0 +1,37 @@
+<div class="header">
+  <p class="title">IP Address Tracker</p>
+    <input
+    class="search"
+    type="search"
+    placeholder="Search for any IP address or domain"
+    autofocus
+    [(ngModel)]="searchIp"
+    (keyup)="getData()"
+    >
+  <div class="modal">
+    <div class="ipAddress">
+        <p class="modal_title">IP ADDRESS</p>
+        <p class="modal_info">{{ip}}</p>
+    </div>
+    <p class="modal_sp">l</p>
+    <div class="location">
+      <p class="modal_title">LOCATION</p>
+      <p class="modal_info">{{location}}</p>
+    </div>
+    <p class="modal_sp">l</p>
+    <div class="timezone">
+      <p class="modal_title">TIMEZONE</p>
+      <p class="modal_info">UTC {{timezone}}</p>
+    </div>
+    <p class="modal_sp">l</p>
+    <div class="ISP">
+      <p class="modal_title">ISP</p>
+      <p class="modal_info">{{isp}}</p>
+    </div>
+  </div>
+</div>
+<div class="map">
+<div id="map"></div>
+</div>
+
+

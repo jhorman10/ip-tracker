@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+// Layout
+$mobile-width: 415px;
+$desktop-width: 1440px;
+
+// Colors
+$very-dark-gray: hsl(0, 0%, 17%);
+$dark-gray: hsl(0, 0%, 59%);
+$white: white;
+
+// Typography
+// Body Copy
+$text-input-font-size: 18px;
+$font-size-title: 12px;
+$font-size-info: 24px;
+// Font
+$font-rubik: "Rubik", sans-serif;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: $font-rubik;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
