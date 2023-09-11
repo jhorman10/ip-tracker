@@ -1,0 +1,8 @@
+@import '../styles';
+
+@media (max-width:  $mobile-width) {
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+}
